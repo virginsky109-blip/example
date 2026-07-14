@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where py *)",
+      "Bash(where node *)",
+      "Bash(git add *)",
+      "Bash(git -c core.quotepath=false status --short)",
+      "Bash(git commit -q -m 'Add 나머지 HTML 실습 파일 및 .claude 설정 *)",
+      "Bash(git push *)"
+    ]
+  }
+}
